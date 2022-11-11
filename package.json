@@ -1,0 +1,38 @@
+{
+  "name": "@imengyu/react-native-bugly",
+  "version": "0.0.1",
+  "description": "React native tencent bugly",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "copy-to-example": "node ./scripts/copy-to-example.js",
+    "lint": "eslint src --ext .ts,.tsx --cache",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.70.6",
+    "react": "18.1.0",
+    "react-native": "^0.70.5",
+    "typescript": "^4.8.3"
+  },
+  "files": [
+    "src",
+    "dist",
+    "RNIMengyuBuglyLib.podspec",
+    "README.md",
+    "ios",
+    "android",
+    "jest",
+    "!android/**/build/*"
+  ],
+  "keywords": [
+    "react-native",
+    "bugly"
+  ],
+  "homepage": "https://github.com/imengyu/rn-bugly",
+  "repository": "https://github.com/imengyu/rn-bugly",
+  "author": "imengyu",
+  "license": "ISC"
+}
